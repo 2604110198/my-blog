@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나를 소개하는 홈페이지</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=SUIT:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero blog-hero" id="home">
+      <nav class="top-nav">
+        <a class="brand" href="#home">MY BLOG</a>
+        <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">Menu</button>
+        <div class="nav-links">
+          <a href="#home">홈</a>
+          <a href="#about">자기소개</a>
+          <a href="#hobby">취미</a>
+          <a href="#gallery">갤러리</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <article class="hero-copy blog-post featured-post">
+          <p class="eyebrow">FEATURED POST</p>
+          <p class="post-meta">March 25, 2026 · 홈</p>
+          <h1>일상, 취미, 그리고 프로젝트를 기록하는<br>나만의 소개 블로그</h1>
+          <p class="hero-text">
+            이 페이지는 저를 소개하는 블로그이자 포트폴리오입니다. 어떤 생각을 하고, 무엇을 좋아하고,
+            어떤 결과물을 만들어 왔는지 천천히 읽어볼 수 있게 구성했습니다.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#about">첫 글 읽기</a>
+            <a class="button secondary" href="#gallery">프로젝트 보기</a>
+          </div>
+        </article>
+
+        <aside class="hero-card sidebar-card">
+          <span class="hero-card-label">ABOUT THIS BLOG</span>
+          <h2>천천히 읽는<br>자기소개 페이지</h2>
+          <p>
+            짧은 프로필 소개보다는, 블로그 글을 읽듯 제 취향과 생각, 작업물을 자연스럽게 둘러볼 수 있도록 꾸몄습니다.
+          </p>
+          <ul class="quick-facts">
+            <li>카테고리: 자기소개, 취미, 갤러리</li>
+            <li>키워드: 기록, 성장, 제작</li>
+            <li>분위기: 따뜻하고 차분한 블로그</li>
+          </ul>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="section intro" id="about">
+        <div class="section-heading">
+          <p class="section-kicker">CATEGORY 01</p>
+          <h2>자기소개</h2>
+        </div>
+        <div class="blog-list">
+          <article class="blog-post">
+            <p class="post-meta">Intro Post · 자기소개</p>
+            <h3>저는 이런 사람입니다</h3>
+            <p>
+              배움에 대한 호기심이 많고, 맡은 일은 끝까지 책임감 있게 해내려는 편입니다.
+              혼자 깊게 몰입하는 시간도 좋아하지만, 함께 의견을 나누며 더 좋은 결과를 만드는 협업도 좋아합니다.
+            </p>
+          </article>
+          <article class="blog-post">
+            <p class="post-meta">Mindset Post · 가치관</p>
+            <h3>중요하게 생각하는 가치</h3>
+            <p>
+              성실함, 꾸준함, 그리고 사람을 배려하는 태도를 중요하게 생각합니다.
+              실력은 계속 성장할 수 있지만, 태도는 결과의 방향을 결정한다고 믿습니다.
+            </p>
+          </article>
+          <article class="blog-post accent">
+            <p class="post-meta">Short Note · 한 줄 소개</p>
+            <h3>한 줄 소개</h3>
+            <p>
+              “작은 아이디어도 직접 만들어 보며 성장하는 사람”
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section hobby" id="hobby">
+        <div class="section-heading">
+          <p class="section-kicker">CATEGORY 02</p>
+          <h2>취미</h2>
+        </div>
+        <div class="blog-list">
+          <article class="blog-post hobby-post">
+            <p class="post-meta">Hobby Log · 01</p>
+            <h3>사진과 기록</h3>
+            <p>일상 속 장면을 사진으로 남기고, 짧게라도 기록하는 시간을 좋아합니다.</p>
+          </article>
+          <article class="blog-post hobby-post">
+            <p class="post-meta">Hobby Log · 02</p>
+            <h3>콘텐츠 탐색</h3>
+            <p>좋은 디자인, 흥미로운 웹사이트, 새로운 기술 트렌드를 찾아보며 영감을 얻습니다.</p>
+          </article>
+          <article class="blog-post hobby-post">
+            <p class="post-meta">Hobby Log · 03</p>
+            <h3>만들기</h3>
+            <p>작은 웹페이지나 아이디어를 직접 구현하면서 배우는 과정을 취미처럼 즐깁니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section gallery" id="gallery">
+        <div class="section-heading">
+          <p class="section-kicker">CATEGORY 03</p>
+          <h2>갤러리</h2>
+        </div>
+
+        <div class="gallery-grid blog-gallery">
+          <article class="feature-card large portfolio-post">
+            <div>
+              <p class="card-tag">Featured Portfolio</p>
+              <h3>포트폴리오 웹사이트</h3>
+              <p>
+                저를 소개하고 프로젝트를 정리한 대표 작업입니다. 깔끔한 구성과 보기 쉬운 정보 정리를 목표로 만들었습니다.
+              </p>
+            </div>
+            <ul>
+              <li>반응형 레이아웃</li>
+              <li>직관적인 메뉴 이동</li>
+              <li>프로젝트 중심 구성</li>
+            </ul>
+          </article>
+
+          <article class="feature-card">
+            <p class="card-tag">Portfolio 01</p>
+            <h3>스터디 기록 페이지</h3>
+            <p>학습 내용을 정리하고 꾸준히 기록할 수 있도록 구성한 개인 아카이브 페이지입니다.</p>
+          </article>
+
+          <article class="feature-card">
+            <p class="card-tag">Portfolio 02</p>
+            <h3>취미 사진 갤러리</h3>
+            <p>사진을 주제별로 나누어 감상할 수 있도록 만든 심플한 갤러리형 웹 프로젝트입니다.</p>
+          </article>
+
+          <article class="feature-card">
+            <p class="card-tag">Portfolio 03</p>
+            <h3>할 일 관리 앱</h3>
+            <p>하루 계획을 간단히 정리하고 완료 상태를 체크할 수 있게 만든 생산성 도구입니다.</p>
+          </article>
+
+          <article class="feature-card quote-card">
+            <p class="card-tag">Motto</p>
+            <blockquote>
+              “배운 것은 직접 만들어 보며 내 것으로 만든다.”
+            </blockquote>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
